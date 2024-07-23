@@ -1,0 +1,44 @@
+.navbar {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.navbar span {
+  color: #003049;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.navItems {
+  display: none;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.menuIcon {
+  width: 30px;
+  height: 20px;
+}
+
+.J {
+  margin-right: 2px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 15px;
+  background-color: #003049;
+  font-size: 2rem;
+  color: white;
+  font-family: stardos-stencil;
+}
