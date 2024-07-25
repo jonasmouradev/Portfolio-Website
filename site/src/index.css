@@ -6,6 +6,6 @@ body {
 }
 
 .content {
-  display: grid;
-  grid-template-rows: 200px 200px 200px;
+  display: flex;
+  flex-direction: column;
 }

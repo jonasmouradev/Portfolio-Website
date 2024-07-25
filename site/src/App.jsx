@@ -1,5 +1,7 @@
+import Form from "./components/form/Form";
 import Hero from "./components/hero/Hero";
 import Nav from "./components/navbar/Nav";
+import Services from "./components/services/Services";
 import "./index.css";
 
 function App() {
@@ -7,6 +9,8 @@ function App() {
     <div className="content">
       <Nav />
       <Hero />
+      <Services />
+      <Form />
     </div>
   );
 }
