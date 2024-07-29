@@ -1,3 +1,4 @@
+import ContactBtn from "../contactBtn/ContactBtn";
 import "../hero/hero.css";
 
 export default function Hero() {
@@ -7,7 +8,7 @@ export default function Hero() {
         Me chamo Jonas Moura e esse é o meu portfólio.
       </aside>
       <img src="https://placehold.co/200x130" />
-      <button className="actionBtn">Contate-me</button>
+      <ContactBtn />
     </section>
   );
 }

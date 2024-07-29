@@ -1,0 +1,21 @@
+.services {
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 2rem 3rem 2rem;
+  background-color: #003049;
+  border-radius: 20px;
+  margin: 0.5rem 1rem;
+  color: white;
+  justify-content: center;
+}
+
+.services img {
+  border-radius: 50%;
+}
+
+.techs {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
