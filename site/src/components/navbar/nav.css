@@ -5,10 +5,11 @@
   justify-content: space-around;
   align-items: center;
   /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  color: var(--textPrimary);
 }
 
 .navbar span {
-  color: #003049;
+  color: var(--textPrimary);
 }
 
 .navbar a {

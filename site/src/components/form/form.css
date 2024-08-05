@@ -6,6 +6,7 @@
   justify-content: center;
   align-items: center;
   font-weight: 300;
+  color: var(--textPrimary);
 }
 
 .formInputs input,
