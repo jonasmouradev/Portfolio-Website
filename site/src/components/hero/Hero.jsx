@@ -8,7 +8,7 @@ export default function Hero() {
         Me chamo Jonas Moura e esse é o meu portfólio.
       </aside>
       <img src="https://placehold.co/200x130" />
-      <ContactBtn />
+      <ContactBtn className="heroBtn" />
     </section>
   );
 }

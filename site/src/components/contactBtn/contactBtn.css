@@ -1,5 +1,4 @@
-.actionBtn {
-  margin-top: 2rem;
+.contactBtn {
   grid-column-start: 1;
   grid-column-end: 3;
   background-color: #118ab2;

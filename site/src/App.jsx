@@ -3,6 +3,7 @@ import Hero from "./components/hero/Hero";
 import Nav from "./components/navbar/Nav";
 import About from "./components/about/About";
 import Services from "./components/services/Services";
+import Footer from "./components/footer/Footer";
 import "./index.css";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Services />
       <About />
       <Form />
+      <Footer />
     </div>
   );
 }

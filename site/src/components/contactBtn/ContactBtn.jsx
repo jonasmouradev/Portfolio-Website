@@ -1,5 +1,5 @@
 import "../contactBtn/contactBtn.css";
 
 export default function ContactBtn() {
-  return <button className="actionBtn">Contate-me</button>;
+  return <button className="contactBtn">Contate-me</button>;
 }
