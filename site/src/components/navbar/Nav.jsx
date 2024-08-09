@@ -4,7 +4,7 @@ export default function Nav() {
   return (
     <nav className="navbar">
       <span>
-        <box className="J">J</box>onas Moura
+        <div className="J">J</div>onas Moura
       </span>
       <a href="/">contact sales</a>
       <svg

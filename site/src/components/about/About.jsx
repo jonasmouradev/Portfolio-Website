@@ -3,14 +3,14 @@ import ContactBtn from "../contactBtn/ContactBtn";
 
 export default function About() {
   return (
-    <about className="about">
-      <section className="aboutSection">
+    <section className="about">
+      <div className="aboutSection">
         <h1 className="aboutTitle">ALGUMA COISA</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
           tincidunt venenatis elit.
         </p>
-      </section>
+      </div>
       <div className="actions">
         <ContactBtn />
         <a href="https://www.google.com">Baixar Currículo</a>
@@ -29,6 +29,6 @@ export default function About() {
           <p>Reviews recebidas</p>
         </spam>
       </article>
-    </about>
+    </section>
   );
 }

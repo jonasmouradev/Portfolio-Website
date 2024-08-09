@@ -12,7 +12,7 @@
 }
 
 .aboutTitle {
-  color: #003049;
+  color: var(--textPrimary);
   align-self: flex-end;
 }
 
